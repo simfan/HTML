@@ -1,0 +1,183 @@
+<html>
+<!--
+     Catalog.htm
+     Chris Glock
+     8/7/2006
+     This HTML document displays the available specials on sunglasses with the descriptions' font size 2 sizes smaller than the default size.
+
+     7/28:	It now also has a logo with an image map, pictures of the sunglasses and links to the home page.
+     8/7:	All style tags have been removed and the page is now modified by an external CSS.  The links are also no 	longer underlined
+ --->
+
+<head><title> FrostiWear Catalog - Chris Glock </title>
+	  	<link rel="stylesheet" type="text/css" href="Frosti.css">
+</head>
+
+<body>
+
+	<a name="Top"></a>
+	<div class = "center">
+	<table border ="0" align = "center" cellpadding = "10">
+		<tr>
+		<td colspan = "2" class = "powderBlue">
+		<!-- Everything enclosed in the following division tag and map tag is part of the FrostiWear logo, with an image map -->
+		<div class = "center">
+			<img src="../Images/newlogo3.gif" alt= "FrostiWear logo" border = "0" usemap ="#logomap" class = "logo"/>
+		</div>
+		<map name="LogoMap">
+   			<area shape= "rect" coords = "0, 46, 98, 69" href = "Frosti.htm">
+			<area shape= "rect" coords = "99, 46, 180, 69" href = "Specials.htm">
+   			<area shape= "rect" coords = "181, 46, 318, 69" href = "Frosti.htm#Locations">
+   			<area shape= "rect" coords = "395, 46, 497, 69" href = "Frosti.htm#Contact">
+		</map>
+		</td>
+		</tr>
+
+		<tr>
+			<td valign = "top" class = "lavender">
+			<a href ="Frosti.htm" class = "link">Home Page</a><br /><br />
+			<a href="Specials.htm" class = "link"> Specials</a><br /><br />
+			<a href ="Frosti.htm#Locations" class = "link">Store Locations </a><br /><br />
+			<span class = "Home">Catalog</span><br /><br />
+			<a href ="Frosti.htm#Contact" class = "link">Contact Us </a><br />
+			</td>
+			<td class = "tablebody" id = "white">
+				<table cellpadding = "0">
+				<tr>
+				<td>
+				Please enter the following information. Your catalog will be sent within 3-5 business days.
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<form name="catalog" action="Catalog.jsp" method= "post">
+					<br />
+					<table border = "0">
+
+
+						<tr>
+							<td>First Name:</td>
+							<td><input type="text" name = "fname" id = "fname" size= "25" maxlength="25" class="text"></td>
+						</tr>
+						<tr>
+							<td>Last Name:</td>
+							<td><input type="text" name = "lname" id = "lname" size= "25" maxlength="25" class="text"></td>
+						</tr>
+						<tr>
+							<td>Street Address:</td>
+							<td><input type="text" name = "address" id = "address" size= "50" maxlength="50" class="text"></td>
+						</tr>
+						<tr>
+							<td>City:</td>
+							<td><input type="text" name = "city" id = "city" size= "20" maxlength="20" class="text"></td>
+						</tr>
+						<tr>
+							<td>State:</td>
+							<td>
+								<select name = "state" id = "state">
+									<option value "AK">AK</option>
+									<option value "AL">AL</option>
+									<option value "AR">AR</option>
+									<option value "AZ">AZ</option>
+									<option value "CA">CA</option>
+									<option value "CO">CO</option>
+									<option value "CT">CT</option>
+									<option value "DC">DC</option>
+									<option value "DE">DE</option>
+									<option value "FL">FL</option>
+									<option value "GA">GA</option>
+									<option value "HI">HI</option>
+									<option value "IA">IA</option>
+									<option value "ID">ID</option>
+									<option value "IL">IL</option>
+									<option value "IN">IN</option>
+									<option value "KS">KS</option>
+									<option value "KY">KY</option>
+									<option value "LA">LA</option>
+									<option value "MA">MA</option>
+									<option value "MD">MD</option>
+									<option value "ME">ME</option>
+									<option value "MI">MI</option>
+									<option value "MN">MN</option>
+									<option value "MO">MO</option>
+									<option value "MS">MS</option>
+									<option value "MT">MT</option>
+									<option value "NC">NC</option>
+									<option value "ND">ND</option>
+									<option value "NE" selected>NE</option>
+									<option value "NH">NH</option>
+									<option value "NJ">NJ</option>
+									<option value "NM">NM</option>
+									<option value "NV">NV</option>
+									<option value "NY">NY</option>
+									<option value "OH">OH</option>
+									<option value "OK">OK</option>
+									<option value "OR">OR</option>
+									<option value "PA">PA</option>
+									<option value "RI">RI</option>
+									<option value "SC">SC</option>
+									<option value "SD">SD</option>
+									<option value "TN">TN</option>
+									<option value "TX">TX</option>
+									<option value "UT">UT</option>
+									<option value "VA">VA</option>
+									<option value "VT">VT</option>
+									<option value "WA">WA</option>
+									<option value "WI">WI</option>
+									<option value "WV">WV</option>
+									<option value "WY">WY</option>
+								</select>
+								&nbsp;Zip: <input type ="text" name = "zip" id = "zip" size= "5" maxlength="5" class="text">
+							</td>
+						</tr>
+						<tr>
+							<td>Print Date:</td>
+							<td>
+								<input type = "radio" name = "date" id = "spring" value = "SPR" checked></input>
+									<label for= "spring">Spring</label></br>
+								<input type = "radio" name = "date" id = "summer" value = "SMR"></input>
+									<label for= "summer">Summer</label></br>
+								<input type = "radio" name = "date" id = "fall" value = "FLL"></input>
+									<label for= "fall">Fall</label></br>
+								<input type = "radio" name = "date" id = "winter" value = "WTR"></input>
+									<label for= "winter">Winter</label></br>
+
+							</td>
+						</tr>
+						<tr>
+							<td>Special Requests:</td>
+							<td><textarea name = "requests" id = "requests" rows = "4" cols = "50"></textarea></td>
+						</tr>
+						<tr>
+							<td colspan = "2"><input type = "checkbox" name = "mail" id ="mail" value = "mail" checked></input>
+								<label for= "mail">Please add me to your mailing list so I may receive future catalogs</label>
+							</td>
+						</tr>
+						<tr>
+
+							<td colspan = "2" class = "center"><input type = "submit" value="Send Request"></input> <input type = "reset" value="Clear"></input>
+							</td>
+						</tr>
+
+					</table>
+				</form>
+				</td>
+				</tr>
+				<tr>
+					<td>
+
+					<hr />
+					<br />
+
+					<div class = "navigation">&curren; <a href ="Frosti.htm" class = "link">Home Page </a>&curren; <a href="Specials.htm" class = "link"> Specials</a> &curren; <a href ="Frosti.htm#Locations" class = "link">Store Locations </a>&curren; <span class = "Home"> Catalog </span> &curren; <a href ="Frosti.htm#Contact" class = "link">Contact Us </a>&curren; <a href="#Top" class = "link">Back to the top </a></div>
+
+				</td>
+				</tr>
+				</table>
+			<td>
+			</td>
+		</tr>
+	</table>
+	</div>
+</body>
+</html>

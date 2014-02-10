@@ -1,0 +1,33 @@
+/* My Web Page CSS stlye 1 */
+* {
+	margin: 0; padding 0;
+}
+
+html{
+	background-color: black;
+	background-image: url(MyWebPageBottom.jpg);
+	background-repeat:repeat-y;
+	background-attachment: scroll
+	}
+
+#Body { /*width: 50%;*/ margin-left: 10em}
+#Top  {  color: red;
+  	   font-style: strong;
+	   font-family: Arial, Sans-Serif;
+	   font-size: 130%;
+	   text-align: center
+      }
+/*#Link {width: 110%;margin-left: -10px;margin-right: 10em; margin-top: 5ex}*/
+
+h1  { color: red;
+	  font-style: strong;
+	  font-family: Arial, Sans-Serif;
+	  font-size: 110%
+	}
+
+div { color: blue }
+
+a:link { color: red; text-decoration:none}
+a:hover { color: green}
+.list {text-decoration: none}
+.Nintendo > div { background-image: url(fives.jpg); background-repeat:no-repeat}

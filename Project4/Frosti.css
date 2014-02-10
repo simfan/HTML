@@ -1,0 +1,56 @@
+/*Frosti.css
+  Chris Glock
+  8/7/2006
+  The Cascading Style Sheet for Frosti.htm and Specials.htm
+ */
+
+/********* Universial properties *********/
+* {font-family: Arial, sans-serif}
+/***************************************/
+
+/************ Link properties ***********/
+
+a:link {color: slateblue}
+a:visited {color: steelblue}
+a:active {color: royalblue}
+a:hover {color: orange; text-transform: uppercase}
+a.link {text-decoration: none}
+/***************************************/
+
+/********** HTML tag properties ********/
+body {font-size: small; background-color: aliceblue;}
+h1, h2, h3, h4, h5, h6 {color: cornflowerblue; font-size: medium}
+/***************************************/
+
+/************ id properties ************/
+#fives {height: 75px; width: 150px;}
+#glasses {border-color: lavender}
+#scar, #twenty {height: 75px; width: 150px;}
+#sweater {height: 160px; width: 237px; float: right}
+#warm {font-style: italic}
+#years {font-weight: bold}
+/***************************************/
+
+/********** class properties ***********/
+.azure {background-color: azure}
+.center{text-align: center; align: center}
+.green {color: green}
+.Home {color: royalblue}
+.l1 {list-style-type: square}
+.l2 {list-style-type: circle}
+.lavender {background-color: lavender; width: 150px;}
+.logo {height: 69px; width: 497px;}
+.main {font-size: small}
+.main-table{width: 800px}
+.navigation {font-size: x-small; text-align: center}
+.powderBlue {background-color: powderblue}
+.small {font-weight: bold}
+.smaller {font-size: smaller}
+.snow {background-color: snow}
+.tablebody{background-color: white; width: 650px}
+/**************************************/
+
+/********** form properties ***********/
+.text {border-style:outset; border-bottom-style:outset}
+
+/**************************************/

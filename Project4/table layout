@@ -1,0 +1,35 @@
+	<table border ="0" width = "800">
+		<tr colspan = "2" class = "powder-Blue">
+
+		<!-- Everything enclosed in the following division tag and map tag is part of the FrostiWear logo, with an image map -->
+		<div class = "center">
+			<img src="../Images/newlogo3.gif" alt= "FrostiWear logo" height="69" width="497" border = "0" usemap ="#logomap" class = "logo"/>
+		</div>
+		<map name="LogoMap">
+   			<area shape= "rect" coords = "0, 46, 98, 69" href = "Frosti.htm">
+			<area shape= "rect" coords = "99, 46, 180, 69" href = "Specials.htm">
+   			<area shape= "rect" coords = "181, 46, 318, 69" href = "#Locations">
+   			<area shape= "rect" coords = "319, 46, 394, 69" href = "Catalog.htm">
+   			<area shape= "rect" coords = "395, 46, 497, 69" href = "#Contact">
+		</map>
+		</tr>
+
+		<tr>
+			<td width = "150" valign "top" class = "lavender">
+			<span class = "Home">Home Page</span><br /><br />
+			<a href="Specials.htm" class = "link"> Specials</a><br /><br />
+			<a href ="#Locations" class = "link">Store Locations </a><br /><br />
+			<a href ="Catalog.htm" class = "link">Catalog</a><br /><br />
+			<a href ="#Contact" class = "link">Contact Us </a><br />
+			</td>
+			<td class = "tablebody">
+
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<div class = "navigation">&curren; <span class = "Home">Home Page </span>&curren; <a href="Specials.htm" class = "link"> Specials</a> &curren; <a href ="#Locations" class = "link">Store Locations </a>&curren; <a href ="Catalog.htm" class = "link"> Catalog &curren; <a href ="#Contact" class = "link">Contact Us </a>&curren; <a href="#Top" class = "link">Back to the top </a></div>
+			</td>
+		</tr>
+	</table>

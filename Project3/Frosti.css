@@ -1,0 +1,44 @@
+/*Frosti.css
+  Chris Glock
+  8/7/2006
+  The Cascading Style Sheet for Frosti.htm and Specials.htm
+ */
+
+/********* Universial properties *********/
+* {font-family: Arial, sans-serif}
+/***************************************/
+
+/************ Link properties ***********/
+
+a:link {color: slateblue}
+a:visited {color: steelblue}
+a:active {color: royalblue}
+a:hover {color: orange; text-transform: uppercase}
+a.link {text-decoration: none}
+/***************************************/
+
+/********** HTML tag properties ********/
+body {font-size: small}
+
+h1, h2, h3, h4, h5, h6 {color: cornflowerblue; font-size: medium}
+/***************************************/
+
+/************ id properties ************/
+#scar, #twenty {float: left; clear:left}
+#sweater {float: right}
+#fives {float: right; clear: right}
+#years {font-weight: bold}
+#warm {font-style: italic}
+/***************************************/
+
+/********** class properties ***********/
+.Home {color: royalblue}
+.green {color: green}
+p.navigation {text-align: center}/* font-size:medium}*/
+.small {font-weight: bold}
+.smaller {font-size: smaller}
+.main {font-size: smaller}
+.l1 {list-style-type: square}
+.l2 {list-style-type: circle}
+.center{text-align: center}
+/**************************************/
